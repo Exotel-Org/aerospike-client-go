@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	. "github.com/aerospike/aerospike-client-go/logger"
-	. "github.com/aerospike/aerospike-client-go/types"
-	xornd "github.com/aerospike/aerospike-client-go/types/rand"
+	. "github.com/Exotel-Org/aerospike-client-go/logger"
+	. "github.com/Exotel-Org/aerospike-client-go/types"
+	xornd "github.com/Exotel-Org/aerospike-client-go/types/rand"
 )
 
 // Client encapsulates an Aerospike cluster.

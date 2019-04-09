@@ -19,8 +19,7 @@ package aerospike_test
 import (
 	"os"
 
-	as "github.com/aerospike/aerospike-client-go"
-
+	as "github.com/Exotel-Org/aerospike-client-go"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )

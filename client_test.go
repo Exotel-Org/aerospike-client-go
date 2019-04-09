@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	as "github.com/aerospike/aerospike-client-go"
-	. "github.com/aerospike/aerospike-client-go/types"
-	. "github.com/aerospike/aerospike-client-go/utils/buffer"
+	. "github.com/Exotel-Org/aerospike-client-g/utils/buffer"
+	as "github.com/Exotel-Org/aerospike-client-go"
+	. "github.com/Exotel-Org/aerospike-client-go/types"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

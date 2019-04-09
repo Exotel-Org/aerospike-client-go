@@ -1,14 +1,14 @@
 # Aerospike Go Client
 
-[![Aerospike Client Go](https://goreportcard.com/badge/github.com/aerospike/aerospike-client-go)](https://goreportcard.com/report/github.com/aerospike/aerospike-client-go)
+[![Aerospike Client Go](https://goreportcard.com/badge/github.com/Exotel-Org/aerospike-client-go)](https://goreportcard.com/report/github.com/Exotel-Org/aerospike-client-go)
 [![Build Status](https://travis-ci.org/aerospike/aerospike-client-go.svg?branch=master)](https://travis-ci.org/aerospike/aerospike-client-go)
-[![Godoc](https://godoc.org/github.com/aerospike/aerospike-client-go?status.svg)](http://godoc.org/github.com/aerospike/aerospike-client-go)
+[![Godoc](https://godoc.org/github.com/Exotel-Org/aerospike-client-go?status.svg)](http://godoc.org/github.com/Exotel-Org/aerospike-client-go)
 
 An Aerospike library for Go.
 
 This library is compatible with Go 1.7+ and supports the following operating systems: Linux, Mac OS X (Windows builds are possible, but untested)
 
-Please refer to [`CHANGELOG.md`](CHANGELOG.md) if you encounter breaking changes.
+Please refer to [`CHANGELOG.md`](CHANGELOG.md) if you encounter breaking github.com/Exotel-Org/aerospike-client-gogithub.com/Exotel-Org/aerospike-client-go
 
 - [Usage](#Usage)
 - [Prerequisites](#Prerequisites)
@@ -31,7 +31,7 @@ package main
 import (
   "fmt"
 
-  . "github.com/aerospike/aerospike-client-go"
+  . "github.com/Exotel-Org/aerospike-client-go"
 )
 
 func panicOnError(err error) {
@@ -49,7 +49,7 @@ func main() {
   panicOnError(err)
 
   // define some bins with data
-  bins := BinMap{
+  bins :github.com/Exotel-Org/aerospike-client-go
     "bin1": 42,
     "bin2": "An elephant is a mouse with an operating system",
     "bin3": []interface{}{"Go", 2009},
@@ -102,8 +102,8 @@ Supported operating systems:
 ## Installation:
 
 1. Install Go 1.7+ and setup your environment as [Documented](http://golang.org/doc/code.html#GOPATH) here.
-2. Get the client in your ```GOPATH``` : ```go get github.com/aerospike/aerospike-client-go```
-  * To update the client library: ```go get -u github.com/aerospike/aerospike-client-go```
+2. Get the client in your ```GOPATH``` : ```go get github.com/Exotel-Org/aerospike-client-go```
+  * To update the client library: ```go get -u github.com/Exotel-Org/aerospike-client-go```
 
 Using [gopkg.in](https://gopkg.in/) is also supported: `go get -u gopkg.in/aerospike/aerospike-client-go.v1`
 
@@ -117,8 +117,8 @@ Using [gopkg.in](https://gopkg.in/) is also supported: `go get -u gopkg.in/aeros
 ## Performance Tweaking
 
 We are bending all efforts to improve the client's performance. In our reference benchmarks, Go client performs almost as good as the C client.
-
-To read about performance variables, please refer to [`docs/performance.md`](docs/performance.md)
+github.com/Exotel-Org/aerospike-client-go
+To read about performance variables, please refgithub.com/Exotel-Org/aerospike-client-gormance.md)
 
 <a name="Tests"></a>
 ## Tests
@@ -154,7 +154,7 @@ See the [`tools/benchmark/README.md`](tools/benchmark/README.md) for details.
 <a name="API-Documentation"></a>
 ## API Documentation
 
-A simple API documentation is available in the [`docs`](docs/README.md) directory. The latest up-to-date docs can be found in [![Godoc](https://godoc.org/github.com/aerospike/aerospike-client-go?status.svg)](http://godoc.org/github.com/aerospike/aerospike-client-go).
+A simple API documentation is available in the [`docs`](docs/README.md) directory. The latest up-to-date docs can be found in [![Godoc](https://godoc.org/github.com/Exotel-Org/aerospike-client-go?status.svg)](http://godoc.org/github.com/Exotel-Org/aerospike-client-go).
 
 ## License
 
@@ -163,3 +163,4 @@ The Aerospike Go Client is made available under the terms of the Apache License,
 Individual files may be made available under their own specific license,
 all compatible with Apache License, Version 2. Please see individual files for details.
 
+github.com/Exotel-Org/aerospike-client-gogithub.com/Exotel-Org/aerospike-client-go

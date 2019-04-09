@@ -18,7 +18,7 @@ import (
 	"log"
 	"time"
 
-	. "github.com/aerospike/aerospike-client-go"
+	. "github.com/Exotel-Org/aerospike-client-go"
 )
 
 func main() {
