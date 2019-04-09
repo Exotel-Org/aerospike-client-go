@@ -26,7 +26,7 @@ import (
 	. "github.com/Exotel-Org/aerospike-client-go/logger"
 	. "github.com/Exotel-Org/aerospike-client-go/types"
 	. "github.com/Exotel-Org/aerospike-client-go/types/atomic"
-)github.com/Exotel-Org/aerospike-client-go
+)
 
 const (
 	_PARTITIONS = 4096
