@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	. "github.com/Exotel-Org/aerospike-client-g/utils/buffer"
+	. "github.com/Exotel-Org/aerospike-client-go/utils/buffer"
 	as "github.com/Exotel-Org/aerospike-client-go"
 	. "github.com/Exotel-Org/aerospike-client-go/types"
 
